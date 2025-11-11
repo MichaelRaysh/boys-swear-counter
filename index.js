@@ -6,13 +6,12 @@ let count = 0;
 function increment() {
     count += 0.25;
     countEl.textContent = count;
-    updateDecrementVisibility();  // Add this to update visibility after increment
-}
+    updateDecrementVisibility();  
 
-function decrement() {  // Match the onclick="decerenent()" from HTML (fix spelling inconsistency)
+function decrement() {  
     count -= 0.25;
     countEl.textContent = count;
-    updateDecrementVisibility();  // Add this to update visibility after decrement
+    updateDecrementVisibility();  
 }
 
 function save() {
@@ -34,8 +33,8 @@ function updateDecrementVisibility() {
 
 function clearFunction() {
     count = 0;
-    countEl.textContent = count; // reset the displayed count
-    updateDecrementVisibility(); // keep button visibility consistent
+    countEl.textContent = count; 
+    updateDecrementVisibility();
 }
 
 clearFunction();
