@@ -1,0 +1,85 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main-h1{
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-radius: 15px;
+}
+
+button{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #3d444e;
+}
+
+
+#increment-btn {
+   background-color: oklch(70.4% 0.191 22.216);
+}
+
+#increment-btn::hover ,
+#save-btn::hover
+{
+    cursor: pointer;
+    
+}
+
+#save-btn {
+    background: oklch(72.3% 0.219 149.579);
+}
+
+#main-body{
+        background-image: url("/The-Boys.png");
+    background-size: cover;
+        min-height: 470px;
+        max-width: 600px;
+        margin:0px auto;
+        display: block;
+        text-align: center;
+}
+
+#save-el{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+#decrement-btn{
+ background-color: oklch(77.7% 0.152 181.912)
+}
+
+#clear-btn,
+#decrement-btn{
+    color: black;
+}
+
+#clear-btn{
+    background-color: oklch(94.3% 0.029 294.588);
+}
+
+#white{
+    color: white;
+}
+
+.buttons{
+   display:flex;
+}
